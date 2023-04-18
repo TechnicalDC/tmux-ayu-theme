@@ -61,7 +61,7 @@ These modifiers were taken from from [strftime manpage](http://man7.org/linux/ma
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
 ```
-set -g @plugin 'odedlaz/tmux-ayu-theme'
+set -g @plugin 'TechnicalDC/tmux-ayu-theme'
 ```
 
 Hit `prefix + I` to fetch the plugin and source it.
@@ -71,7 +71,7 @@ Hit `prefix + I` to fetch the plugin and source it.
 Clone the repo:
 
 ```
-$ git clone https://github.com/odedlaz/tmux-ayu-theme /a/path/you/choose
+$ git clone https://github.com/TechnicalDC/tmux-ayu-theme /a/path/you/choose
 ```
 
 Add this line to the bottom of `.tmux.conf`:
@@ -99,7 +99,7 @@ $ tmux source-file ~/.tmux.conf
    
 ### Widgets not working
 
-   Make sure that you put the `set -g @plugin 'odedlaz/tmux-ayu-theme'` before other scripts that alter the status line, or they won't be able to pickup the plugin's changes.
+   Make sure that you put the `set -g @plugin 'TechnicalDC/tmux-ayu-theme'` before other scripts that alter the status line, or they won't be able to pickup the plugin's changes.
 
 ### True Color
 
