@@ -1,6 +1,5 @@
 #!/bin/bash
-ayu_background="#101521"
-ayu_black="#1F2430"
+ayu_black="#101521"
 ayu_blue="#5CCFE6"
 ayu_yellow="#E6B450"
 ayu_red="#F28779"
@@ -70,7 +69,7 @@ set "pane-active-border-bg" "$ayu_black"
 set "display-panes-active-colour" "$ayu_yellow"
 set "display-panes-colour" "$ayu_blue"
 
-set "status-bg" "$ayu_background"
+set "status-bg" "$ayu_black"
 set "status-fg" "$ayu_white"
 
 set "@prefix_highlight_fg" "$ayu_black"
