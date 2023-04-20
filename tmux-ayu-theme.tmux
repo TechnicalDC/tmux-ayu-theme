@@ -81,7 +81,7 @@ status_widgets=$(get "@ayu_widgets")
 time_format=$(get "@ayu_time_format" "%R")
 date_format=$(get "@ayu_date_format" "%d/%m/%Y")
 
-set "status-right" "#[fg=$ayu_white,bg=$ayu_black,nounderscore,noitalics]${time_format}  ${date_format} #[fg=$ayu_visual_grey,bg=$ayu_black]#[fg=$ayu_visual_grey,bg=$ayu_visual_grey]#[fg=$ayu_white, bg=$ayu_visual_grey]${status_widgets} #[fg=$ayu_green,bg=$ayu_visual_grey,nobold,nounderscore,noitalics]#[fg=$ayu_black,bg=$ayu_green,bold] #h #[fg=$ayu_yellow, bg=$ayu_green]#[fg=$ayu_red,bg=$ayu_yellow]"
+set "status-right" "#[fg=$ayu_white,bg=$ayu_black,nounderscore,noitalics]  ${time_format}    ${date_format} #[fg=$ayu_visual_grey,bg=$ayu_black]#[fg=$ayu_visual_grey,bg=$ayu_visual_grey]#[fg=$ayu_white, bg=$ayu_visual_grey]${status_widgets} #[fg=$ayu_green,bg=$ayu_visual_grey,nobold,nounderscore,noitalics]#[fg=$ayu_black,bg=$ayu_green,bold] #h #[fg=$ayu_yellow, bg=$ayu_green]#[fg=$ayu_red,bg=$ayu_yellow]"
 set "status-left" "#[fg=$ayu_black,bg=$ayu_green,bold] #S #{prefix_highlight}#[fg=$ayu_green,bg=$ayu_black,nobold,nounderscore,noitalics]"
 
 set "window-status-format" "#[fg=$ayu_black,bg=$ayu_black,nobold,nounderscore,noitalics]#[fg=$ayu_white,bg=$ayu_black] #I  #W #[fg=$ayu_black,bg=$ayu_black,nobold,nounderscore,noitalics]"
