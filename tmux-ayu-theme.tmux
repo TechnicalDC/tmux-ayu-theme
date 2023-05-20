@@ -85,4 +85,4 @@ set "status-right" "#[fg=$ayu_white,bg=$ayu_black,nounderscore,noitalics]  ${
 set "status-left" "#[fg=$ayu_black,bg=$ayu_green,bold]   #S #{prefix_highlight}#[fg=$ayu_green,bg=$ayu_black,nobold,nounderscore,noitalics]"
 
 set "window-status-format" "#[fg=$ayu_black,bg=$ayu_black,nobold,nounderscore,noitalics]#[fg=$ayu_white,bg=$ayu_black] #I  #W #[fg=$ayu_black,bg=$ayu_black,nobold,nounderscore,noitalics]"
-set "window-status-current-format" "#[fg=$ayu_black,bg=$ayu_yellow,nobold,nounderscore,noitalics]#[fg=$ayu_white,bg=$ayu_yellow,nobold] #I  #W #[fg=$ayu_yellow,bg=$ayu_black,nobold,nounderscore,noitalics]"
+set "window-status-current-format" "#[fg=$ayu_black,bg=$ayu_yellow,nobold,nounderscore,noitalics]#[fg=$ayu_black,bg=$ayu_yellow,nobold] #I  #W #[fg=$ayu_yellow,bg=$ayu_black,nobold,nounderscore,noitalics]"
